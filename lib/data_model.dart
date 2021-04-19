@@ -14,3 +14,5 @@ class DataModel{
   DataModel({this.title, this.description, this.complete});
 
 }
+//command to generate g.dart
+//flutter packages pub run build_runner build
