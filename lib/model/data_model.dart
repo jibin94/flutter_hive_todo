@@ -11,8 +11,8 @@ class DataModel{
   @HiveField(2)
   final bool complete;
 
-  DataModel({this.title, this.description, this.complete});
-
+  DataModel({required this.title, required this.description, required this.complete});
 }
+
 //command to generate g.dart
-//flutter packages pub run build_runner build
+//dart run build_runner build
